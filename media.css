@@ -8,14 +8,14 @@
     "box3"
     "box4";
     gap:1rem;
-    padding-left:2.2rem;
+    padding-left:5rem;
   }
   .art-text {
     width: 380px;
 }
   #card-bg{
   width:80%;
-  height:100vh;
+  height:100%;
   margin: 0 auto;
   background-color:hsl(0, 0%, 100%);
 }
@@ -42,7 +42,7 @@
 }
 #card-bg{
   width:80%;
-  height:100vh;
+  height:100%;
   margin: 0 auto;
   background-color:hsl(0, 0%, 100%);
 }
