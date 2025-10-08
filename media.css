@@ -52,14 +52,13 @@
     width: 200px;
 }
 .supervisor-box{
-  border:2px solid #32a1ce;
+  border-top:3px solid hsl(180, 62%, 55%);
   align-self: center;
-  margin-left: 0px;
+  margin-left: 100px;
 }
-
 .calculator-box{
-border:2px solid #32a1ce;
+border-top:3px solid hsl(212, 86%, 64%);
 align-self: center;
-margin-right: 0px;
+margin-right: 100px;
 }
 }
