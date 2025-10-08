@@ -1,0 +1,16 @@
+@media(max-width:600px){
+  .four-card-feature{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-areas:
+    "box1"
+    "box2"
+    "box3"
+    "box4";
+    gap:1rem;
+    padding-left:2.2rem;
+  }
+  .art-text {
+    width: 380px;
+}
+}

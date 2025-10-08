@@ -1,0 +1,71 @@
+*{
+  /* background-color:red; */
+}
+html,body{
+  font-family: font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+    background-color:hsl(212, 6%, 44%)
+}
+#card-bg{
+
+}
+#center-content{
+  width:70%;
+  margin: 0 auto;
+  background-color:hsl(0, 0%, 100%);
+  padding:2rem;
+}
+.title-text{
+ text-align: center;
+ margin: 0 auto;
+}
+#h1-text{
+  font-weight: 200;
+  margin:0;
+}
+#powered-by-tech{
+  font-weight: 600;
+  margin:0;
+}
+.art-text{
+  width:400px;
+  margin:0 auto;
+  padding-bottom:3rem;
+  padding-top:1rem;
+}
+.four-card-feature{
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-template-areas:
+  "box1 box2 box4"
+  "box1 box2 box4"
+  "box1 box3 box4";
+  gap:1rem;
+  padding:0 5px;
+}
+.shadow-box{
+  width:250px;
+  shadow:2px #000;
+  background-color:hsl(0, 0%, 100%);
+  padding:15px;
+}
+img{
+  float:right;
+  width:50px;
+}
+.supervisor-box{
+  border:2px solid #32a1ce;
+  align-self: center;
+}
+.team-builder-box{
+  border:2px solid #32a1ce;
+  align-items: start;
+}
+.karma-box{
+border:2px solid #32a1ce;
+}
+.calculator-box{
+border:2px solid #32a1ce;
+align-self: center;
+}
