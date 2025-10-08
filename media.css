@@ -15,7 +15,7 @@
 }
 }
 
-@media(max-width:414px){
+@media(max-width:450px){
   .four-card-feature{
     display: grid;
     justify-items:left;
