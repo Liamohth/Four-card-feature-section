@@ -5,16 +5,18 @@ html,body{
   font-family: font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 200;
-    background-color:hsl(212, 6%, 44%)
+  background-image: url(./images/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #card-bg{
-
-}
-#center-content{
-  width:70%;
+  width:80%;
+  height:100vh;
   margin: 0 auto;
   background-color:hsl(0, 0%, 100%);
-  padding:2rem;
+}
+#center-content{
+padding-top:5rem;
 }
 .title-text{
  text-align: center;
@@ -36,6 +38,7 @@ html,body{
 }
 .four-card-feature{
   display: grid;
+  justify-items:center;
   grid-template-columns:repeat(3, 1fr);
   grid-template-areas:
   "box1 box2 box4"
@@ -46,7 +49,7 @@ html,body{
 }
 .shadow-box{
   width:250px;
-  shadow:2px #000;
+  box-shadow:2px 2px 4px -2px #000;
   background-color:hsl(0, 0%, 100%);
   padding:15px;
 }
@@ -55,17 +58,19 @@ img{
   width:50px;
 }
 .supervisor-box{
-  border:2px solid #32a1ce;
+  border-top:3px solid hsl(180, 62%, 55%);
   align-self: center;
+  margin-left: 100px;
 }
 .team-builder-box{
-  border:2px solid #32a1ce;
+  border-top:3px solid hsl(0, 78%, 62%);
   align-items: start;
 }
 .karma-box{
-border:2px solid #32a1ce;
+border-top:3px solid hsl(34, 97%, 64%);
 }
 .calculator-box{
-border:2px solid #32a1ce;
+border-top:3px solid hsl(212, 86%, 64%);
 align-self: center;
+margin-right: 100px;
 }

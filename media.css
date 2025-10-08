@@ -14,3 +14,39 @@
     width: 380px;
 }
 }
+
+@media(max-width:414px){
+  .four-card-feature{
+    display: grid;
+    justify-items:left;
+    grid-template-columns:1fr;
+    grid-template-areas:
+    "box1"
+    "box2"
+    "box3"
+    "box4";
+    gap:1rem;
+    /* padding-left:0px; */
+  }
+  #h1-text {
+    font-size: 20px;
+}
+  .art-text {
+    width: 260px;
+}
+
+.shadow-box {
+    width: 200px;
+}
+.supervisor-box{
+  border:2px solid #32a1ce;
+  align-self: center;
+  margin-left: 0px;
+}
+
+.calculator-box{
+border:2px solid #32a1ce;
+align-self: center;
+margin-right: 0px;
+}
+}
