@@ -13,9 +13,15 @@
   .art-text {
     width: 380px;
 }
+  #card-bg{
+  width:80%;
+  height:100vh;
+  margin: 0 auto;
+  background-color:hsl(0, 0%, 100%);
+}
 }
 
-@media(max-width:450px){
+@media(max-width:500px){
   .four-card-feature{
     display: grid;
     justify-items:left;
@@ -34,7 +40,12 @@
   .art-text {
     width: 260px;
 }
-
+#card-bg{
+  width:80%;
+  height:100vh;
+  margin: 0 auto;
+  background-color:hsl(0, 0%, 100%);
+}
 .shadow-box {
     width: 200px;
 }
