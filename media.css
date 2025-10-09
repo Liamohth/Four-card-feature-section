@@ -25,7 +25,7 @@
 @media(max-width:500px){
   .four-card-feature{
     display: grid;
-    justify-items:left;
+    justify-items:center;
     grid-template-columns:1fr;
     grid-template-areas:
     "box1"
@@ -54,7 +54,7 @@
 .supervisor-box{
   border-top:3px solid hsl(180, 62%, 55%);
   align-self: center;
-  margin-left: 100px;
+  margin-left: 0px;
 }
 .calculator-box{
 border-top:3px solid hsl(212, 86%, 64%);
